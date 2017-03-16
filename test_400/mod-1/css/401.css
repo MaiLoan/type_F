@@ -1,0 +1,68 @@
+.type-401 {
+  font-family: PT Serif;
+  border: none;
+  height: auto;
+}
+.type-401 .top-menu {
+  padding-top: 20px !important;
+}
+.type-401 .top-menu img {
+  display: block;
+}
+.type-401 .top-menu .logo {
+  width: auto;
+  position: absolute;
+  float: left;
+}
+.type-401 .top-menu .clear {
+  clear: both;
+}
+.type-401 .top-menu .navbar-collapse {
+  padding: 0;
+}
+.type-401 .top-menu a {
+  color: #000;
+  font-size: 1.1em;
+}
+.type-401 .top-menu a:hover {
+  background: none !important;
+  color: #D0021B;
+}
+.type-401 .top-menu .btn-menu {
+  font-size: 25px;
+  padding: 3px 10px;
+  border: 1px solid #000;
+  margin: 10px 0;
+  border-radius: 4px;
+  float: right;
+}
+.type-401 .top-menu .btn-menu:hover {
+  background: #000;
+  color: #fff;
+}
+.type-401 .top-menu .menu {
+  font-style: italic;
+}
+@media (min-width: 768px) {
+  .type-401 .top-menu {
+    padding: 0;
+  }
+  .type-401 li>a {
+    padding: 25px 20px;
+  }
+  .type-401 .btn-menu {
+    display: none;
+  }
+  .type-401 .navbar-nav {
+    display: block;
+  }
+}
+@media (max-width: 767px) {
+  .type-401 .left-bg {
+    display: none;
+  }
+  .type-401 li>a {
+    padding: 10px 30px;
+    color: #000;
+  }
+}

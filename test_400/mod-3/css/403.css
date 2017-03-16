@@ -1,0 +1,188 @@
+.type-403 {
+  font-family: PT Serif;
+  background-color: #fff;
+}
+.type-403 .app-info {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: left;
+}
+.type-403 .app-info a {
+  text-decoration: none;
+  color: #505050;
+}
+.type-403 .app-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.type-403 .app-info li {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+.type-403 .app-info .store-badge {
+  vertical-align: middle;
+}
+.type-403 .app-info .store-badge img {
+  width: 156px;
+}
+.type-403 .app-info .store-badge.bottom {
+  display: none;
+}
+.type-403 .app-info .app {
+  text-align: center;
+}
+.type-403 .app-info .title {
+  font-weight: 600;
+  color: #000;
+}
+.type-403 .app-info .main-content {
+  text-align: center;
+  margin-top: -15px;
+}
+.type-403 .app-info .text-info li {
+  color: #000;
+  display: block;
+  position: relative;
+  padding-left: 18px;
+}
+.type-403 .app-info li {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+.type-403 .app-info .login-link {
+  background: #DFDFDF;
+  color: #000;
+}
+.type-403 .app-info .register-link {
+  background: #D0021B;
+  color: #fff;
+  margin-right: 14px;
+}
+.type-403 .app-info .login-link:hover {
+  background-color: #eaeaea;
+  color: #000;
+}
+.type-403 .app-info .register-link:hover {
+  background-color: #d04141;
+  color: #fff;
+}
+.type-403 .app-info .text-info li:before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  background: #DA151F;
+  border-radius: 99px;
+  margin-right: 10px;
+  vertical-align: 2px;
+  display: inline-block;
+  position: absolute;
+  top: 8px;
+  left: 0;
+}
+.type-403 .web-app-links a {
+  text-decoration: none;
+  display: inline-block;
+  width: 170px;
+  height: 4.4rem;
+  line-height: 4.4rem;
+  font-weight: 500;
+  font-size: 1.5rem;
+  border-radius: 99px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.type-403 .app-info .web-app-links {
+  margin-top: 44px;
+}
+@media only screen and (min-width: 768px) {
+  .type-403 .store-badge {
+    display: inline-block;
+    margin-right: 18px;
+  }
+  .type-403 .title {
+    font-size: 35px;
+  }
+  .type-403 .text-info li {
+    font-size: 16px;
+    margin-top: 14px;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 779px) {
+  .type-403 .store-badge {
+    display: inline-block;
+    margin-right: 18px;
+  }
+  .type-403 .store-badge img {
+    width: 190px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .type-403 .store-badge {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .type-403 .store-badge img {
+    display: inline-block;
+  }
+  .type-403 .store-badge.top {
+    display: none;
+  }
+  .type-403 .store-badge.bottom {
+    display: block;
+  }
+  .type-403 .store-badge img {
+    width: 190px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .type-403 .title {
+    font-size: 25px;
+  }
+  .type-403 .text-info li {
+    font-size: 14px;
+    margin-top: 8px;
+  }
+  .type-403 .web-app-links a {
+    width: 130px !important;
+  }
+  .type-403 .register-link {
+    margin-right: 0 !important;
+  }
+}
+@media only screen and (max-width: 779px) {
+  .type-403 .footer-links {
+    padding: 30px 30px;
+    background: #ECECEC;
+    text-align: left;
+  }
+  .type-403 .footer-links a {
+    padding: 10px 0;
+    font-size: 1.4rem;
+  }
+  .type-403 .footer-links li {
+    width: 50%;
+  }
+  .type-403 footer {
+    margin-top: 30px;
+    padding: 0 30px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .type-403 .footer-links li {
+    width: 100%;
+  }
+  .type-403 .web-app-links {
+    text-align: center;
+  }
+}
+@media only screen and (min-width: 780px) {
+  .type-403 .footer-links a {
+    padding: 10px 10px;
+  }
+  .type-403 .footer-links li:not(:last-child) {
+    margin-right: 30px;
+  }
+}

@@ -1,0 +1,8 @@
+.type-404 img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.type-404 .show-img {
+  padding: 0;
+}
